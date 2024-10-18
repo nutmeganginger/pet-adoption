@@ -6,6 +6,10 @@ html {
     padding: 0;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 .top-section {
     background-color: #001D37;
     overflow: hidden;
