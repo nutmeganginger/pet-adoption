@@ -171,6 +171,17 @@ html {
     font-family: "Source Sans 3", sans-serif;
     font-size: 1.1rem;
     color: #9F9F9F;
+    cursor: pointer;
+}
+
+.pet-filter button:hover {
+    color: #626262;
+}
+
+.pet-filter .active,
+.pet-filter .active:hover {
+    color: #475AFF;
+    text-decoration: underline;
 }
 
 .pet-filter button:active {
